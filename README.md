@@ -40,22 +40,30 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-## 4. Install the required packages
-
-### Windows (Command Prompt)
+## 4. Install Python dependencies
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-### Linux / macOS
+## 5. Install system dependencies
+
+### Windows (PowerShell)
 
 ```bash
-pip install -r requirements.txt
+winget install Gyan.FFmpeg
 ```
+
+### Linux
 
 ```bash
 sudo apt install ffmpeg libsm6 libxext6
+```
+
+### macOS
+
+```bash
+brew install ffmpeg
 ```
 
 ## 6. Run the application
