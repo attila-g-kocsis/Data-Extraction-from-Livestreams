@@ -5,7 +5,7 @@
 STREAMS = {
     'playa-de-salinas': {
         'URL': 'https://webcams24.live/webcam/playa-de-salinas-east-webcam',
-        'zooms': {'sandy-beach': [0.0, 0.2, 0.5, 0.96], 'ramp-top' :[0.46, 0.63, 0.82, 0.96], 'ramp-bottom' :[0.61, 0.68, 0.65, 0.75], 'passage' :[0.66, 0.9, 0.8, 0.96]}, 
+        'zooms': {'sandy-beach': [0.0, 0.2, 0.5, 0.96], 'ramp-top' :[0.46, 0.63, 0.82, 0.96], 'ramp-bottom' :[0.61, 0.68, 0.65, 0.75], 'passage' :[0.66, 0.9, 0.8, 0.96]}, #add more entries for more zoom regions   
         'cap': None,
         'result': {'file': None, 'write': None}
     },    
@@ -34,51 +34,3 @@ split_ratio_scale = 1.6
 split_zooms_overlap_x = 0.075
 split_zooms_overlap_y = 0.15
 merge_dist_thresh = 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-"https://www.youtube.com/live/8JCk5M_xrBs?si=mznENs30Y_VPM2V6"
-"https://www.youtube.com/watch?v=Cp4RRAEgpeU"
-"https://webcams24.live/webcam/egmond-aan-zee-holland-pompplein-webcam"
-"https://webcams24.live/webcam/kabukich-shinjuku-japan-webcam"
-"https://webcams24.live/webcam/sweet-soul-cafe-view-2-koh-samui-webcam"
-"https://webcams24.live/webcam/playa-de-salinas-west-webcam"
-"https://webcams24.live/webcam/playa-de-salinas-east-webcam"
-
-REGIONS ={
-    'Knokke': {'URL': 'https://webcams24.live/webcam/anemos-beach-club-knokke-heist-webcam', 'zoom':[0.18,0.95,0.45,0.85], 'cap': None, 'result': {'file': None, 'write': None}},
-    'Salinas': {'URL': 'https://webcams24.live/webcam/playa-de-salinas-west-webcam', 'zoom':[0.2,0.95,0.5,0.95], 'cap': None, 'result': {'file': None, 'write': None}},
-    'Zeeland': {'URL': 'https://webcams24.live/webcam/renesse-aan-zee-beach-zeeland-webcam', 'zoom':[0.2,0.8,0.35,0.8], 'cap': None, 'result': {'file': None, 'write': None}}
-}
-
-'Begavna': {'URL': 'https://webcams24.live/webcam/san-silvestro-church-square-begavna-webcam', 'zoom':[0.15,0.7,0.55,0.99], 'cap': None, 'result': {'file': None, 'write': None}}
-"""

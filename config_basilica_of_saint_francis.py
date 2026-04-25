@@ -5,9 +5,7 @@
 STREAMS = {
     'basilica-of-saint-francis': {
         'URL': 'https://webcams24.live/webcam/basilica-of-saint-francis-of-assisi-webcam',
-        'zooms': {'top': [0.32, 0.62, 0.7, 0.799], 'middle' :[0.277, 0.637, 0.801, 0.899], 'bottom' :[0.225, 0.65, 0.901, 0.999]},         
-#       'zooms': {'top': [0.32, 0.63, 0.655, 0.7725], 'middle' :[0.26, 0.65, 0.7675, 0.8825], 'bottom' :[0.2, 0.675, 0.8775, 1.0]}, 
-#       'zooms': {'top': [0.32, 0.625, 0.65, 0.775], 'middle' :[0.26, 0.65, 0.765, 0.89], 'bottom' :[0.2, 0.675, 0.875, 1.0]},         
+        'zooms': {'top': [0.32, 0.62, 0.7, 0.799], 'middle' :[0.277, 0.637, 0.801, 0.899], 'bottom' :[0.225, 0.65, 0.901, 0.999]},  #add more entries for more zoom regions        
         'cap': None,
         'result': {'file': None, 'write': None}
     },
