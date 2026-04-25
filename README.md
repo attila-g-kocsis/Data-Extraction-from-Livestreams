@@ -22,15 +22,47 @@ python -m venv venv
 
 ## 3. Activate the virtual environment (Linux)
 
+### Windows (PowerShell)
+
+```bash
+.\venv\Scripts\Activate.ps1
+```
+
+### Windows (Command Prompt)
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
 source venv/bin/activate
+```
 
 ## 4. Install the required packages
 
+### Windows (Command Prompt)
+
+```bash
 pip install -r requirements.txt
+```
 
-## 5. Run the application
+### Linux / macOS
 
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+sudo apt install ffmpeg libsm6 libxext6
+```
+
+## 6. Run the application
+
+```bash
 python livestream_crowd_control.py
+```
 
 # Brief project content
 

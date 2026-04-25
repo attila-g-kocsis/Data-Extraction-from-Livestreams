@@ -1,11 +1,4 @@
-sys
-subprocess
-datetime
-zoneinfo
-math
-numpy
-cv2
-sqlite3
-csv 
-opencv-python
-ultralytics
+numpy==2.2.6
+opencv-python==4.13.0.92
+ultralytics==8.4.17
+yt-dlp==2026.3.17
